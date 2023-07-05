@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+overfast/__init__.py
+overfast/overfast.py
+overfast_py.egg-info/PKG-INFO
+overfast_py.egg-info/SOURCES.txt
+overfast_py.egg-info/dependency_links.txt
+overfast_py.egg-info/requires.txt
+overfast_py.egg-info/top_level.txt

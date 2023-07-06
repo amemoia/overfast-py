@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: overfast-py
-Version: 1.0
+Version: 1.1
 Summary: An API wrapper for the OverFast API
 Author: amemoia
 Classifier: Programming Language :: Python :: 3
@@ -13,3 +13,7 @@ License-File: LICENSE
 # overfast-py
 TeKrop's OverFast API in Python.
 Made by Amemoia.
+
+# Installation
+Windows
+`py -m pip install overfast-py`

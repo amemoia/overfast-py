@@ -19,6 +19,8 @@ def get(type: str, locale: str = "en-us", key: str = None):
     if type == "maps":
         if key:
             params["gamemode"] = key
+    if type == "heroes":
+        params['role'] = key
     
     data = requests.get(url + type, params)
     response = data.json()
@@ -89,3 +91,5 @@ def player(type: str = None, name: str = None, id: str = None,
     else:
         return response
         
+
+print(get(type='heroes', key=None))
